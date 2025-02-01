@@ -1,0 +1,29 @@
+@font-face {
+    font-family: pro;
+    src: url(./ProtestStrike-Regular.ttf);
+}
+body { background-color: #f8f9fa; }
+.container { max-width: 800px; }
+.step { display: none; }
+.step.active { display: block; }
+.step-indicator { display: flex; justify-content: space-between; margin-bottom: 20px; }
+.step-indicator .btn { flex: 1; margin: 0 5px; font-size: 16px; font-weight: bold; }
+.step-indicator .btn.active { background-color: #cc0f87; color: white; }
+#nextBtn{
+    background-color: #cc0f87;
+    color: white;
+}
+#nextBtn:hover{
+    background-color: #621445;
+}
+#prevBtn{
+    background-color: #cc0f87;
+    color: white;
+}
+#prevBtn:hover{
+    background-color: #621445;
+}
+.heading{
+    font-family: pro;
+    letter-spacing: 2px;
+}
